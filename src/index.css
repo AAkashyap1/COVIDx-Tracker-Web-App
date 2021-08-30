@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tw-forms-disable-all-descendants * {
+  --tw-ring-color: transparent !important;
+}
